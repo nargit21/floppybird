@@ -111,6 +111,7 @@ body
    font-family: monospace;
    font-size: 12px;
    color: #fff;
+   zoom: 1.1;
 }
 
 #gamecontainer
@@ -200,12 +201,14 @@ Screen - Game
 {
    position: absolute;
    opacity: 0;
-   top: 75px;
+   top: 45px;
    left: 65px;
-   width: 188px;
-   height: 170px;
+   width: 300px;
+   height: 250px;
    background-image: url('../assets/splash.png');
    background-repeat: no-repeat;
+   background-position: center bottom;
+   text-align: center;
 }
 
 #scoreboard
